@@ -1,0 +1,17 @@
+# Системный мусор Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Данные и модели (слишком тяжелые)
+data/
+*.gguf
+ollama_data/
+
+# Секреты и настройки
+.env
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
